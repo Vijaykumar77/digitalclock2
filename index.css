@@ -1,0 +1,19 @@
+#bigcontainer {
+    height: 50px;
+    width: 200px;
+    border: 2px solid red;
+}
+
+#smallcontainer {
+    height: 50px;
+    width: 200px;
+    border: 2px solid blue;
+}
+
+button:hover span {
+    display: none;
+}
+
+button:hover:before {
+    content: "party time";
+}
